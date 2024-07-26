@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Care</title>
+</head>
+<script src="https://kit.fontawesome.com/eb21f449ee.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="personal.css">
+<body>
+<div id="header"></div>
+<div id="div">
+    <div id="divv">
+    <label>Sort By:</label>
+    <select  id="sort" style="border-radius: 10px;">
+        <option value="popularity">Popularity</option>
+        <option value ="ltoh">Price Low to High</option>
+        <option value="htol">Price High to Low</option>
+    </select>
+
+    </div>
+</div>
+<div id="main">
+    <div>
+        <div>
+            <h3 style="font-size: 26px;">Filter</h3>
+        </div>
+        <div>
+            <h4 style="font-size: 16px;">Category</h4>
+        </div>
+        <div id="same">
+            <p>Personal Care</p>
+            <input type="radio" checked>
+        </div>
+        <hr style="width: 15%;float: left;">
+        <div>
+            <h4 style="font-size: 16px;">Sub Category</h4>
+        </div>
+        <div  id="same">
+            <p>Men Care</p>
+            <input type="radio">
+        </div>
+        <div id="same">
+            <p>Appliances</p>
+            <input type="radio">
+        </div>
+        <div id="same">
+            <p>Women Care</p>
+            <input type="radio">
+        </div>
+        <div id="same">
+            <p>Oral Care</p>
+            <input type="radio">
+        </div>
+        <div id="same">
+            <p>Male Grooming</p>
+            <input type="radio">
+        </div>
+        <hr style="width: 15%;float: left;">
+        <div>
+            <h4 style="font-size: 16px;">Price</h4>
+        </div>
+        <div id="same">
+            <p>Below 99</p>
+            <input type="radio" id="below99">
+        </div>
+        <div id="same">
+            <p>100-199</p>
+            <input type="radio" id="b100to199">
+        </div>
+        <div id="same">
+            <p>200-299</p>
+            <input type="radio" id="b200to299">
+        </div>
+        <div id="same">
+            <p>300-399</p>
+            <input type="radio" id="b300to399">
+        </div>
+        <div id="same">
+            <p>400-499</p>
+            <input type="radio" id="b400to499">
+        </div>
+    </div>
+    <div id="products"></div>
+</div>
+<div id="f"></div>   
+</body>
+</html>
+<script type="module" src="personal.js"></script>

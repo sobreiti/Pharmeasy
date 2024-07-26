@@ -1,0 +1,98 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+    padding: 60px;
+    width: 100%;
+}
+#products>div>img{
+    height:60px;
+    
+}
+#products>div{
+    border: 1px solid #dfe3e6;
+    width: 80%;
+    border-radius: 6px;
+    padding: 20px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+#total{
+    display: flex;
+    justify-content: space-between;
+}
+#ordertotal{
+    display: flex;
+    justify-content: space-between;
+}
+#charge{
+    display: flex;
+    justify-content: space-between;
+}
+#container2{
+    margin-top: 0px;
+    width:50%;  
+}
+
+#free{
+    width:100%;
+}
+#coupon>button{
+    background-color: white;
+    border: 2px solid #10847E;
+    color: #10847E;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+#address>button{
+    background-color: #10847E;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+}
+#coupon{
+    margin-bottom: 20px;
+}
+#address{
+    margin-bottom: 20px;
+}
+#addressdiv{
+    border: 1px solid #10847E;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 6px;
+}
+#addressdiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#go{
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #10847E;
+    border-radius: 6px;
+
+}
+#count1{
+    display: flex;
+}
+#remove{
+    background-color: #10847E;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 6px;
+}

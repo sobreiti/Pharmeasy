@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+}
+div>img{
+    width: 100%;
+    height: 260px;
+}
+#nddiv>div>img{
+    height: 299.38px;
+    width: 421px;
+    margin-top: -230px;
+}
+#nddiv>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* border: 1px solid red; */
+    /* background-color: lightpink; */
+    height: 158px;
+    margin-top: 28px;
+    border-radius: 6px;
+    
+}
+#nddiv{
+display: flex;
+place-content: center;
+justify-content: space-evenly;  
+cursor: pointer;
+}
+#nd1{
+background-color: aliceblue;
+
+}
+#nd2{
+background-color: oldlace;
+}
+#nd3{
+background-color: aliceblue;
+}
+#t1{
+font-weight: bold;
+color: rgb(46, 44, 44);
+font-size: 16px;
+font-family: sans-serif;
+
+}
+#p1{
+color: red;
+font-family: sans-serif;
+
+}
+#o{
+font-family: sans-serif;
+display: flex;
+gap:20px;
+margin: 40px auto;
+}
+#o>img{
+    width:40px;
+    height: 40px;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 2px;
+}
+
+#of{
+    /* border: 1px solid red; */
+    margin-left: 4%;
+    margin-top: 0%;
+    
+}
+#user{
+    color: white;
+    cursor: pointer;
+}
+#lab{
+    width: 100%;
+    margin-top: 60px;
+}
+#brands{
+    display: flex;
+    justify-content: space-around;
+}
+#brands>div>img{
+    width: 143px;
+    height:207.64px;
+}
+#brands>div:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#categories>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#articles>a>div{
+    width:426.33px;
+    height: 405px;  
+    /* border: 1px solid #dfe3e6; */
+}
+#articles{
+    display: flex;
+    justify-content: space-between;
+    word-wrap: wrap;
+}
+#more{
+    width: 100px;
+    height: 50px;
+}
+#p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#p2{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 700;
+}
+#p3{
+    text-decoration: none;
+    color: black;
+}
+#banner{
+    border-radius: 6px;
+}
+h2{
+    color: #4F585E;
+}
+#count1{
+    display: flex;
+}
+#fo2>img{
+    height: 500px;
+}
+#fo3-1{
+    height: 510px;
+}
+#fo1>img{
+    height: 350px;
+}
+

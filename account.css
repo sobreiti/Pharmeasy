@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+    display: grid;
+    place-content: center;
+    padding: 60px;
+}
+#incontainer{
+    border: 2px solid #dfe3e6;
+    padding: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: auto;
+}
+#save{
+    background-color: #10847E;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+#save:hover{
+    border: 2px solid #dfe3e6;
+}
+div>p{
+    font-size: 20px;
+    font-weight: 700;
+}
+#name{
+    height: 40px;
+    font-size: 15px;
+}
+#number{
+    height: 40px;
+    font-size: 15px;
+}
+#email{
+    height: 40px;
+    font-size: 15px;
+}
+#address{
+    height: 40px;
+    font-size: 15px;
+}
+#count1{
+    display: flex;
+}
+#cart{
+    font-weight: lighter;
+}
